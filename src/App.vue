@@ -237,7 +237,9 @@
     
       </p>
 
-      <a href="https://tranquil-melomakarona-ff89e3.netlify.app/">Spotify</a>
+      <a href="https://spotifycopybool.netlify.app/">
+        <img class="img-fluid" src="@/assets/img/spotify.png" alt="spotify project">
+      </a>
     </main>
     <!-- /.site_main -->
 
