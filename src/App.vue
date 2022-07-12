@@ -210,36 +210,101 @@
       </section>
       <!-- /.experience -->
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ut
-        suscipit in temporibus ipsa aliquid nulla odio, esse blanditiis dolor
-        soluta quam! Commodi tempore suscipit nemo non velit dolores doloribus!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit impedit
-        asperiores laudantium sit voluptates, quo quaerat? Ratione molestiae
-        dignissimos placeat temporibus ad corporis voluptate, minus, dolores
-        aliquid totam enim! Sint minus consectetur explicabo minima dolores
-        officiis suscipit! Doloremque sed incidunt eius aspernatur adipisci
-        soluta vel quod excepturi esse, explicabo ab nihil quibusdam facilis
-        voluptas deleniti enim. Odit neque eligendi ipsam quia similique
-        quisquam laborum at perspiciatis, commodi ab blanditiis nulla fugit,
-        minus porro dolorum. Ex quae iusto accusamus, minima magnam soluta vitae
-        numquam, et inventore eius rerum, animi consequuntur architecto tenetur
-        qui. Impedit quo consectetur praesentium dignissimos error repellat
-        recusandae nihil. Culpa nulla voluptates, deleniti quis et labore
-        consequatur, quia saepe quisquam dicta, voluptate odit. Corporis id
-        dolorem illo recusandae! Alias voluptatibus nisi, esse est, iste
-        distinctio, amet excepturi expedita neque recusandae quibusdam. Nisi
-        consequuntur, eaque eum corporis, fuga fugiat accusamus dolor obcaecati
-        modi necessitatibus sapiente facere. Est sequi vitae illum magnam
-        doloribus delectus. Ipsum facilis laudantium voluptatum, deleniti
-        recusandae sit cumque tempora, eos ratione delectus incidunt iste,
-        facere aliquid earum possimus explicabo non nostrum molestias illum
-    
-      </p>
+      <section class="projects">
+        <div class="container">
+          <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col discord">
+              <a href="https://discordcopybool.netlify.app/">
+                <img
+                  class="img-fluid"
+                  src="@/assets/img/discord.png"
+                  alt="discord project"
+                />
+              </a>
+            </div>
+            <!-- /.discord -->
 
-      <a href="https://spotifycopybool.netlify.app/">
-        <img class="img-fluid" src="@/assets/img/spotify.png" alt="spotify project">
-      </a>
+            <div class="col playstation">
+              <a href="https://playstationcopy.netlify.app">
+                <img
+                  class="img-fluid"
+                  src="@/assets/img/playstation.png"
+                  alt="playstation project"
+                />
+              </a>
+            </div>
+            <!-- /.playstation -->
+
+            <div class="col spotify">
+              <a href="https://spotifycopybool.netlify.app/">
+                <img
+                  class="img-fluid"
+                  src="@/assets/img/spotify.png"
+                  alt="spotify project"
+                />
+              </a>
+            </div>
+            <!-- /.spotify -->
+
+            <div class="col spotify">
+              <a href="https://spotifycopybool.netlify.app/">
+                <img
+                  class="img-fluid"
+                  src="@/assets/img/spotify.png"
+                  alt="spotify project"
+                />
+              </a>
+            </div>
+            <!-- /.spotify -->
+
+            <div class="col spotify">
+              <a href="https://spotifycopybool.netlify.app/">
+                <img
+                  class="img-fluid"
+                  src="@/assets/img/spotify.png"
+                  alt="spotify project"
+                />
+              </a>
+            </div>
+            <!-- /.spotify -->
+
+            <div class="col spotify">
+              <a href="https://spotifycopybool.netlify.app/">
+                <img
+                  class="img-fluid"
+                  src="@/assets/img/spotify.png"
+                  alt="spotify project"
+                />
+              </a>
+            </div>
+            <!-- /.spotify -->
+
+            <div class="col spotify">
+              <a href="https://spotifycopybool.netlify.app/">
+                <img
+                  class="img-fluid"
+                  src="@/assets/img/spotify.png"
+                  alt="spotify project"
+                />
+              </a>
+            </div>
+            <!-- /.spotify -->
+
+            <div class="col spotify">
+              <a href="https://spotifycopybool.netlify.app/">
+                <img
+                  class="img-fluid"
+                  src="@/assets/img/spotify.png"
+                  alt="spotify project"
+                />
+              </a>
+            </div>
+            <!-- /.spotify -->
+
+          </div>
+        </div>
+      </section>
+      <!-- /.projects -->
     </main>
     <!-- /.site_main -->
 
