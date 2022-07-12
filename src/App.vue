@@ -234,43 +234,10 @@
         doloribus delectus. Ipsum facilis laudantium voluptatum, deleniti
         recusandae sit cumque tempora, eos ratione delectus incidunt iste,
         facere aliquid earum possimus explicabo non nostrum molestias illum
-        dolorem mollitia ab est! Ipsa nisi aliquam amet illo quidem quo,
-        incidunt beatae velit distinctio? Tempora recusandae corrupti nihil
-        voluptates ducimus ea cum quae vero officiis eius at repellendus nostrum
-        pariatur sapiente beatae quod illo maiores molestiae, impedit doloremque
-        cumque temporibus. Repudiandae autem odio officia in possimus molestiae
-        quas aperiam illo commodi aliquid? Reiciendis consequuntur fugit
-        exercitationem voluptatibus pariatur corporis sapiente veritatis quidem
-        vero labore. Inventore officiis asperiores repellendus delectus ut
-        accusamus distinctio repellat, quisquam sapiente placeat aspernatur, aut
-        ex hic aperiam ea cum. Provident ullam incidunt odio quasi, magnam sit
-        qui ducimus veniam, quaerat reprehenderit, ratione officia
-        necessitatibus commodi corrupti dolorem nostrum et perferendis minima
-        quos dolores soluta itaque doloremque? Eligendi illum in officiis ullam,
-        eum vero quo officia facilis similique, laboriosam alias itaque fugiat
-        nesciunt voluptatem deleniti unde iusto, molestiae ex rerum quasi minima
-        deserunt adipisci? Facere suscipit, beatae impedit tenetur, sunt saepe
-        ut, labore dignissimos omnis ipsum sit. Nulla maiores rem ad atque iusto
-        numquam nobis voluptatibus vitae alias provident excepturi qui, aliquam
-        eligendi, eaque incidunt doloremque reprehenderit quia assumenda ut
-        fugit exercitationem rerum quod. Omnis aut labore doloremque ullam harum
-        sed! Quam adipisci, repellat eligendi odio minima, nemo magnam a
-        quibusdam perferendis maiores tenetur incidunt odit praesentium
-        aspernatur, atque excepturi quidem possimus ea debitis deleniti?
-        Voluptatem incidunt sed accusamus beatae, quidem soluta in. Dignissimos,
-        voluptatum culpa. Ut optio magnam repudiandae sed ullam. Quibusdam autem
-        eius, vero, qui architecto nisi aspernatur tenetur dicta, at odit magnam
-        deleniti possimus ea commodi fuga officiis neque ad ducimus
-        reprehenderit cumque nostrum eveniet! Sunt aut ex incidunt reiciendis
-        unde dignissimos consectetur optio dolorum, ipsam, magnam, a soluta
-        tenetur culpa? Nobis ipsum ad deserunt obcaecati pariatur nemo voluptate
-        dolores veritatis rerum iure dolorum alias numquam accusantium quibusdam
-        natus corporis fugit consectetur optio, necessitatibus quo sint quos
-        illum autem rem? Et est expedita molestias vel necessitatibus quam?
-        Dolorum, temporibus provident eaque odit error illum unde aliquid veniam
-        fugiat laboriosam totam voluptatum aspernatur officia explicabo illo
-        repudiandae.
+    
       </p>
+
+      <a href="https://tranquil-melomakarona-ff89e3.netlify.app/">Spotify</a>
     </main>
     <!-- /.site_main -->
 
