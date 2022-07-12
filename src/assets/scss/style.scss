@@ -1,0 +1,23 @@
+@import '~/node_modules/bootstrap/scss/bootstrap.scss';
+@import 'animate.css';
+
+//App style default
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: #808080;
+
+  .orange{
+    color: #ae4119;
+  }
+
+  .zoom{
+    transform: scale(2);
+    transition: all 3s;
+    position: relative;
+    left: -50%;
+  }
+}
