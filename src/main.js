@@ -12,6 +12,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
  AOS.init();
 
+ // per scroll link navbar
+import VueSmoothScroll from "vue2-smooth-scroll";
+Vue.use(VueSmoothScroll);
+
 Vue.config.productionTip = false
 
 new Vue({
