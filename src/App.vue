@@ -1,81 +1,81 @@
 <template>
   <div id="app">
-    <PreLoadear   />
+    <PreLoadear />
     <div class="my_wrapper" v-if="show == false">
       <header class="site_header">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid justify-content-center">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  v-smooth-scroll="{ offset: -300 }"
-                  href="#about"
-                  ><div class="text_nav_link">About</div></a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  v-smooth-scroll="{ offset: -200 }"
-                  href="#experience"
-                  ><div class="text_nav_link">Experience</div></a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  v-smooth-scroll="{ offset: -200 }"
-                  href="#works"
-                  ><div class="text_nav_link">Works</div></a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  v-smooth-scroll="{ offset: -100 }"
-                  href="#skills"
-                  ><div class="text_nav_link">Skills</div></a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  v-smooth-scroll="{ offset: -100 }"
-                  href="#contacts"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  ><div class="text_nav_link">Contacts</div></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- /.navbar -->
-
-      <div class="jumbo p-5 d-flex justify-content-center align-items-center">
-        <div class="container mt-5 text-center">
-          <div class="content_jumbotron">
-            <div class="orange welcome">Welcome</div>
-            <div class="name">I am Domenico</div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid justify-content-center">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    v-smooth-scroll="{ offset: -300 }"
+                    href="#about"
+                    ><div class="text_nav_link">About</div></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    v-smooth-scroll="{ offset: -200 }"
+                    href="#experience"
+                    ><div class="text_nav_link">Experience</div></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    v-smooth-scroll="{ offset: -200 }"
+                    href="#works"
+                    ><div class="text_nav_link">Works</div></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    v-smooth-scroll="{ offset: -100 }"
+                    href="#skills"
+                    ><div class="text_nav_link">Skills</div></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    v-smooth-scroll="{ offset: -100 }"
+                    href="#contacts"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    ><div class="text_nav_link">Contacts</div></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- /.navbar -->
+
+        <div class="jumbo p-5 d-flex justify-content-center align-items-center">
+          <div class="container mt-5 text-center">
+            <div class="content_jumbotron">
+              <div class="orange welcome">Welcome</div>
+              <div class="name">I am Domenico</div>
+              <!-- <div
               class="
                 junior
                 orange
@@ -83,348 +83,372 @@
               "
             >
               {{ flip_data[flip_index].title }}
-            </div>
-            <div class="display-5 developer">Developer</div>
-          </div>
-          <div class="img_code text-center">
-            <img
-              class="my_img img-fluid"
-              src="@/assets/img/coding.png"
-              alt="logo"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- /.jumbo -->
-    </header>
-    <!-- /.site_header -->
+            </div> -->
+              <!-- /.junior -->
 
-    <main class="site_main">
-      <section
-        id="about"
-        class="about"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-2">
-            <div class="col">
-              <h2 class="orange text-center mb-4">About Me</h2>
-
-              <p>
-                Appassionato di tecnologia ed innovazione. Nato lavorativamente
-                nel campo elettrico, ho sviluppato competenze in impiantistica,
-                manutenzione e propensione a lavorare in gruppo. Ho scelto il
-                mondo della programmazione perché ti da la possibilità di creare
-                qualcosa per le persone, affinché si possano divertire,
-                informare, acquistare e tanto altro, non ci sono limiti a quello
-                che si può creare. Per me questo è un punto fondamentale di
-                questo lavoro che mi ha portato a fare una svolta nella mia
-                vita. Sono una persona determinata, amo mettermi in gioco e
-                affrontare nuove sfide, ma allo stesso tempo imparare tecnologie
-                nuove che un giorno potrebbero portarmi ad essere una figura di
-                riferimento.
-              </p>
-            </div>
-
-            <div class="col d-flex justify-content-center align-items-center">
-              <img
-                class="img-fluid profile_img"
-                src="@/assets/img/dom-2.jpeg"
-                alt="profile_photo"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /.about -->
-
-      <section
-        id="experience"
-        class="experience py-5"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
-        <div class="container">
-          <h2 class="orange text-center mb-4">Experience</h2>
-          <div class="row">
-            <div class="col-1">
-              <img
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-sine"
-                width="50"
-                src="@/assets/img/boolean.jpg"
-                alt="logo-boolean"
-              />
-            </div>
-
-            <div
-              class="col-11 d-flex justify-content-center align-items-center"
-            >
-              <div class="text_experience">
-                <h3 class="ms-3">Boolean Careers</h3>
-
-                <div class="line"></div>
-                <h3>Junior Full Stack Web Developer Trainee</h3>
-                <small>Febbraio 2022 - Agosto 2022</small>
-                <small>Milano, Lombardia, Italia</small>
-                <p>
-                  Durante i 6 mesi di corso intensivo ho avuto modo di fare
-                  molta pratica con diversi tipi di progetti ispirati alle più
-                  famose web applications come Whattsapp Web, Spotify Web,
-                  Netflix e molte altre. <br />
-                  Le principali tecnologie che ho utilizzato sono:
-                </p>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS (Sass)</li>
-                  <li>Javascript (Vue, Axios)</li>
-                  <li>PHP</li>
-                  <li>MySQL</li>
-                  <li>PhpMyAdmin</li>
-                  <li>Laravel</li>
-                </ul>
+              <div
+                class="flip-container_text"
+                ontouchstart="this.classList.toggle('hover');"
+              >
+                <div class="flipper_text">
+                  <div class="front_text junior orange rotate_zero">
+                    Jr Front Web
+                  </div>
+                  <div class="back_text junior orange rotate_min">
+                    Jr Back Web
+                  </div>
+                </div>
               </div>
-            </div>
-            <!-- /.boolean -->
 
-            <div class="col-1 pt-5">
+              <div class="display-5 developer">Developer</div>
+            </div>
+            <div class="img_code text-center">
               <img
-              data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-sine"
-                width="50"
-                src="@/assets/img/malvin.png"
+                class="my_img img-fluid"
+                src="@/assets/img/coding.png"
                 alt="logo"
               />
             </div>
+          </div>
+        </div>
+        <!-- /.jumbo -->
+      </header>
+      <!-- /.site_header -->
 
-            <div
-              class="col-11 d-flex justify-content-center align-items-center"
-            >
-              <div class="text_experience">
-                <h3 class="ms-3 pt-5">Malvin S.R.L</h3>
+      <main class="site_main">
+        <section
+          id="about"
+          class="about"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col">
+                <h2 class="orange text-center mb-4">About Me</h2>
 
-                <div class="line"></div>
-                <h3>Operaio Specializzato</h3>
-                <small> Settembre 2017 - Settembre 2021</small>
-                <small>Teverola (CE), Campania, Italia</small>
                 <p>
-                  Gli anni trascorsi in quest'azienda mi hanno fatto sviluppare
-                  un grande <em>problem solving</em>, attraverso la
-                  pianificazione e prontezza nello svolgimento della
-                  manutenzione dell'impianto elettrico e la riparazione di
-                  macchinari per le imprese clienti. Il gruppo era alla base del
-                  lavoro che si svolgeva, con la distribuzione dei vari ruoli si
-                  cooperava per la produzione dei prodotti (premiscelati,
-                  idropitture).
+                  Appassionato di tecnologia ed innovazione. Nato
+                  lavorativamente nel campo elettrico, ho sviluppato competenze
+                  in impiantistica, manutenzione e propensione a lavorare in
+                  gruppo. Ho scelto il mondo della programmazione perché ti da
+                  la possibilità di creare qualcosa per le persone, affinché si
+                  possano divertire, informare, acquistare e tanto altro, non ci
+                  sono limiti a quello che si può creare. Per me questo è un
+                  punto fondamentale di questo lavoro che mi ha portato a fare
+                  una svolta nella mia vita. Sono una persona determinata, amo
+                  mettermi in gioco e affrontare nuove sfide, ma allo stesso
+                  tempo imparare tecnologie nuove che un giorno potrebbero
+                  portarmi ad essere una figura di riferimento.
                 </p>
               </div>
+
+              <div class="col d-flex justify-content-center align-items-center">
+                <img
+                  class="img-fluid profile_img"
+                  src="@/assets/img/dom-2.jpeg"
+                  alt="profile_photo"
+                />
+              </div>
             </div>
-            <!-- /.malvin -->
           </div>
-        </div>
-      </section>
-      <!-- /.experience -->
+        </section>
+        <!-- /.about -->
 
-      <section
-        id="works"
-        class="projects py-5"
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-      >
-        <div class="container">
-          <h2 class="orange text-center mb-4">Works</h2>
+        <section
+          id="experience"
+          class="experience py-5"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="container">
+            <h2 class="orange text-center mb-4">Experience</h2>
+            <div class="row">
+              <div class="col-1">
+                <img
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-sine"
+                  width="50"
+                  src="@/assets/img/boolean.jpg"
+                  alt="logo-boolean"
+                />
+              </div>
 
-          <div
-            class="
-              row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4
-              g-4
-            "
-          >
+              <div
+                class="col-11 d-flex justify-content-center align-items-center"
+              >
+                <div class="text_experience">
+                  <h3 class="ms-3">Boolean Careers</h3>
+
+                  <div class="line"></div>
+                  <h3>Junior Full Stack Web Developer Trainee</h3>
+                  <small>Febbraio 2022 - Agosto 2022</small>
+                  <small>Milano, Lombardia, Italia</small>
+                  <p>
+                    Durante i 6 mesi di corso intensivo ho avuto modo di fare
+                    molta pratica con diversi tipi di progetti ispirati alle più
+                    famose web applications come Whattsapp Web, Spotify Web,
+                    Netflix e molte altre. <br />
+                    Le principali tecnologie che ho utilizzato sono:
+                  </p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS (Sass)</li>
+                    <li>Javascript (Vue, Axios)</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>PhpMyAdmin</li>
+                    <li>Laravel</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.boolean -->
+
+              <div class="col-1 pt-5">
+                <img
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-sine"
+                  width="50"
+                  src="@/assets/img/malvin.png"
+                  alt="logo"
+                />
+              </div>
+
+              <div
+                class="col-11 d-flex justify-content-center align-items-center"
+              >
+                <div class="text_experience">
+                  <h3 class="ms-3 pt-5">Malvin S.R.L</h3>
+
+                  <div class="line"></div>
+                  <h3>Operaio Specializzato</h3>
+                  <small> Settembre 2017 - Settembre 2021</small>
+                  <small>Teverola (CE), Campania, Italia</small>
+                  <p>
+                    Gli anni trascorsi in quest'azienda mi hanno fatto
+                    sviluppare un grande <em>problem solving</em>, attraverso la
+                    pianificazione e prontezza nello svolgimento della
+                    manutenzione dell'impianto elettrico e la riparazione di
+                    macchinari per le imprese clienti. Il gruppo era alla base
+                    del lavoro che si svolgeva, con la distribuzione dei vari
+                    ruoli si cooperava per la produzione dei prodotti
+                    (premiscelati, idropitture).
+                  </p>
+                </div>
+              </div>
+              <!-- /.malvin -->
+            </div>
+          </div>
+        </section>
+        <!-- /.experience -->
+
+        <section
+          id="works"
+          class="projects py-5"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <div class="container">
+            <h2 class="orange text-center mb-4">Works</h2>
+
             <div
-              class="col project"
-              v-for="project in projects"
-              :key="project.id"
+              class="
+                row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4
+                g-4
+              "
             >
               <div
-                class="flip-container"
-                ontouchstart="this.classList.toggle('hover');"
+                class="col project"
+                v-for="project in projects"
+                :key="project.id"
               >
-                <div class="flipper">
-                  <div class="front">
-                    <img :src="project.image" :alt="project.name" />
-                  </div>
-                  <div class="back">
-                    <div class="title_project">{{ project.name }}</div>
-                    <p class="description_project">
-                      {{ project.description }}
-                    </p>
-                    <small>
-                      {{ project.technology }}
-                    </small>
-                    <div class="link_project text-center">
-                      <a class="view_project" :href="project.link">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="20"
-                          height="20"
-                          fill="currentColor"
-                          class="bi bi-arrow-up-right-circle-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
-                          />
-                        </svg>
-                      </a>
+                <div
+                  class="flip-container"
+                  ontouchstart="this.classList.toggle('hover');"
+                >
+                  <div class="flipper">
+                    <div class="front">
+                      <img :src="project.image" :alt="project.name" />
+                    </div>
+                    <div class="back">
+                      <div class="title_project">{{ project.name }}</div>
+                      <p class="description_project">
+                        {{ project.description }}
+                      </p>
+                      <small>
+                        {{ project.technology }}
+                      </small>
+                      <div class="link_project text-center">
+                        <a class="view_project" :href="project.link">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-arrow-up-right-circle-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"
+                            />
+                          </svg>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- /.project -->
             </div>
-            <!-- /.project -->
           </div>
-        </div>
-      </section>
-      <!-- /.projects -->
+        </section>
+        <!-- /.projects -->
 
-      <section
-        id="skills"
-        class="skills py-5"
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-      >
-        <div class="container">
-          <h2 class="orange text-center">Skills</h2>
-          <!-- infinite sidebar -->
-          <infinite-slide-bar :duration="'50s'">
-            <div class="items d-flex">
-              <div v-for="skill in skills" :key="skill.id">
-                <div class="img_infinite">
-                  <img
-                    class="img-fluid me-5"
-                    :src="skill.image"
-                    :alt="skill.name"
-                  />
+        <section
+          id="skills"
+          class="skills py-5"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <div class="container">
+            <h2 class="orange text-center">Skills</h2>
+            <!-- infinite sidebar -->
+            <infinite-slide-bar :duration="'50s'">
+              <div class="items d-flex">
+                <div v-for="skill in skills" :key="skill.id">
+                  <div class="img_infinite">
+                    <img
+                      class="img-fluid me-5"
+                      :src="skill.image"
+                      :alt="skill.name"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-          </infinite-slide-bar>
-        </div>
-      </section>
-      <!-- /.skills -->
-    </main>
-    <!-- /.site_main -->
-
-    <footer class="site_footer">
-      <h3 class="orange text-center mt-3 mb-5">Contacts</h3>
-      <div class="container d-flex justify-content-center">
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col">
-            <div id="contacts" class="contacts opacity-100">
-              <ul class="pe-5">
-                <li>
-                  <a href="https://github.com/DomenicoGalileo88">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="50"
-                      fill="currentColor"
-                      class="bi bi-github"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                      />
-                    </svg>
-
-                    <div class="show">
-                      <strong>/DomenicoGalileo88</strong>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://ibb.co/N7RyT9M">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="50"
-                      fill="currentColor"
-                      class="bi bi-file-person"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"
-                      />
-                      <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                    </svg>
-
-                    <div class="show">
-                      <strong>Domenico Galileo</strong>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/domenico-galileo/">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="50"
-                      fill="currentColor"
-                      class="bi bi-linkedin"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-                      />
-                    </svg>
-
-                    <div class="show">
-                      <strong>/domenico-galileo</strong>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="mailto:domenico.galileo@gmail.com">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="50"
-                      fill="currentColor"
-                      class="bi bi-envelope-fill"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
-                      />
-                    </svg>
-
-                    <div class="show">
-                      <strong>Email me!</strong>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <!-- /.contacts -->
+            </infinite-slide-bar>
           </div>
+        </section>
+        <!-- /.skills -->
+      </main>
+      <!-- /.site_main -->
 
-          <div class="col">
-            <div class="maps">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12050.159449237635!2d14.261092026632028!3d40.969657970715936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b00bdcff9cd71%3A0x4181610c1b2d5f27!2s81030%20Orta%20di%20Atella%2C%20Province%20of%20Caserta!5e0!3m2!1sen!2sit!4v1659522928693!5m2!1sen!2sit" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <footer class="site_footer">
+        <h3 class="orange text-center mt-3 mb-5">Contacts</h3>
+        <div class="container d-flex justify-content-center">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <div id="contacts" class="contacts opacity-100">
+                <ul class="pe-5">
+                  <li>
+                    <a href="https://github.com/DomenicoGalileo88">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                        />
+                      </svg>
+
+                      <div class="show">
+                        <strong>/DomenicoGalileo88</strong>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://ibb.co/N7RyT9M">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-file-person"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"
+                        />
+                        <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                      </svg>
+
+                      <div class="show">
+                        <strong>Domenico Galileo</strong>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/domenico-galileo/">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-linkedin"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                        />
+                      </svg>
+
+                      <div class="show">
+                        <strong>/domenico-galileo</strong>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="mailto:domenico.galileo@gmail.com">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-envelope-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                        />
+                      </svg>
+
+                      <div class="show">
+                        <strong>Email me!</strong>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.contacts -->
             </div>
-            <!-- /.maps -->
+
+            <div class="col">
+              <div class="maps">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12050.159449237635!2d14.261092026632028!3d40.969657970715936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b00bdcff9cd71%3A0x4181610c1b2d5f27!2s81030%20Orta%20di%20Atella%2C%20Province%20of%20Caserta!5e0!3m2!1sen!2sit!4v1659522928693!5m2!1sen!2sit"
+                  width="300"
+                  height="250"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <!-- /.maps -->
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- /.site_footer -->
+      </footer>
+      <!-- /.site_footer -->
     </div>
     <!-- /.wrapper -->
   </div>
@@ -619,20 +643,51 @@ export default {
     },
     startTimer() {
       this.flip_timerId = setInterval(this.nextText, 2580);
-
     },
-    displayWrapper(){
+    displayWrapper() {
       this.show = false;
     },
 
-    delayDisplay(){
+    delayDisplay() {
       setTimeout(this.displayWrapper, 6000);
-    }
+      setTimeout(this.back, 6000);
+    },
+
+    front() {
+      // seleziono i tag attraverso le classi
+      let front = document.querySelector(".front_text");
+      let back = document.querySelector(".back_text");
+      //rimuovo le classi presenti
+      front.classList.remove("rotate_max");
+      back.classList.remove("rotate_zero");
+      // aggiungo le classi per far si che front si veda
+      front.classList.add("rotate_zero");
+      back.classList.add("rotate_min");
+      //console.log("front", front);
+      //console.log("back", back);
+      // attivare la funzione di back dopo 2.5sec
+      setTimeout(this.back, 2500);
+    },
+
+    back() {
+      // seleziono i tag attraverso le classi
+      let front = document.querySelector(".front_text");
+      let back = document.querySelector(".back_text");
+      //rimuovo le classi presenti
+      front.classList.remove("rotate_zero");
+      back.classList.remove("rotate_min");
+      // aggiungo le classi per far si che back si veda
+      front.classList.add("rotate_max");
+      back.classList.add("rotate_zero");
+      //console.log("front", front);
+      //console.log("back", back);
+      // attivare la funzione di front dopo 2.5sec
+      setTimeout(this.front, 2500);
+    },
   },
   mounted() {
     this.startTimer();
     this.delayDisplay();
-    
   },
 };
 </script>
@@ -641,7 +696,7 @@ export default {
 <style lang="scss">
 @import "@/assets/scss/style.scss";
 
-  //scroolbar style
+//scroolbar style
 /* width */
 ::-webkit-scrollbar {
   width: 7px;
@@ -649,27 +704,84 @@ export default {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: black; 
+  background: black;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #808080; 
+  background: #808080;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ae4119; 
+  background: #ae4119;
 }
 
-.display_none{
-    visibility: hidden;
-    height: 10px;
-    width: 10px;
-    object-fit: contain;
+.display_none {
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  object-fit: contain;
 }
 
 header {
+  /* FLIP BOX */
+
+  .flip-container_text {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+
+  /* .flip-container_text:hover .back_text {
+    transform: rotateX(0deg);
+  }
+
+  .flip-container_text:hover .front_text {
+    transform: rotateX(180deg);
+  } */
+
+  .rotate_zero {
+    transform: rotateX(0deg);
+  }
+
+  .rotate_max {
+    transform: rotateX(180deg);
+  }
+
+  .rotate_min {
+    transform: rotateX(-180deg);
+  }
+
+  .flip-container_text,
+  .front_text,
+  .back_text {
+    width: 100%;
+  }
+
+  .flipper_text {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  /* hide back of pane during swap */
+  .front_text,
+  .back_text {
+    backface-visibility: hidden;
+    transition: 1s;
+    transform-style: preserve-3d;
+    border-radius: 0.5rem;
+  }
+
+  .back_text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  .front_text {
+    z-index: 2;
+  }
+
   height: 100vh;
   nav {
     background-color: rgb(19, 18, 18);
@@ -783,7 +895,7 @@ main {
     width: 100%;
   }
 
-  .flipper {
+  .flipper_text {
     transition: 0.6s;
     transform-style: preserve-3d;
   }
@@ -909,11 +1021,10 @@ footer {
       opacity: 1;
     }
   }
-
 }
 
-@media screen and (max-width: 768px){
-  header{
+@media screen and (max-width: 768px) {
+  header {
     height: auto;
   }
 
@@ -921,35 +1032,33 @@ footer {
     margin-top: 2rem !important;
   }
   .welcome {
-      font-size: 3rem !important;
-    }
+    font-size: 3rem !important;
+  }
 
-    .name {
-      font-size: 3.5rem !important;
-    }
+  .name {
+    font-size: 3.5rem !important;
+  }
 
-    .junior {
-      font-size: 2rem !important;
-    }
+  .junior {
+    font-size: 2rem !important;
+  }
 
-    .developer {
-      font-size: 2rem !important;
-    }
+  .developer {
+    font-size: 2rem !important;
+  }
 
-    .profile_img{
-      display: none !important;
-    }
+  .profile_img {
+    display: none !important;
+  }
 
-    .text_experience{
-      padding: 1rem;
-    }
+  .text_experience {
+    padding: 1rem;
+  }
 
-    a .show{
-      opacity: 1 !important;
-      padding-left: 0.5rem;
-      color: #cfcfcf;
-    }
-
-   
+  a .show {
+    opacity: 1 !important;
+    padding-left: 0.5rem;
+    color: #cfcfcf;
+  }
 }
 </style>
