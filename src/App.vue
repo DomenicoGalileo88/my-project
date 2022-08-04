@@ -784,8 +784,8 @@ header {
 
   height: 100vh;
   nav {
-    background-color: rgb(19, 18, 18);
-    box-shadow: 0px 20px 20px 0px #131212;
+    background-color:black;
+    box-shadow: 0px 20px 20px 0px black;
     width: 100%;
     position: fixed !important;
     z-index: 1;
