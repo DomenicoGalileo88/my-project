@@ -53,7 +53,7 @@ export default {
   width: 100%;
   height: 100%;
   z-index: 9;
-  animation: bgScale 8s;
+  animation: bgScale 6s;
   overflow: hidden;
   .logo_name {
     font-size: 3rem;

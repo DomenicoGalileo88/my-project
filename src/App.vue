@@ -79,7 +79,7 @@
               class="
                 junior
                 orange
-                animate__animated animate__flipOutX animate__infinite
+                animate__animated animate__flipInX animate__infinite
               "
             >
               {{ flip_data[flip_index].title }}
@@ -618,7 +618,7 @@ export default {
       this.flip_index--;
     },
     startTimer() {
-      this.flip_timerId = setInterval(this.nextText, 3000);
+      this.flip_timerId = setInterval(this.nextText, 2580);
 
     },
     displayWrapper(){
@@ -626,7 +626,7 @@ export default {
     },
 
     delayDisplay(){
-      setTimeout(this.displayWrapper, 8000);
+      setTimeout(this.displayWrapper, 6000);
     }
   },
   mounted() {
@@ -640,6 +640,27 @@ export default {
 
 <style lang="scss">
 @import "@/assets/scss/style.scss";
+
+  //scroolbar style
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #808080; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ae4119; 
+}
 
 .display_none{
     visibility: hidden;
@@ -703,7 +724,7 @@ header {
 
     .junior {
       font-size: 3rem;
-      --animate-duration: 4s;
+      --animate-duration: 2.3s;
     }
 
     .developer {
