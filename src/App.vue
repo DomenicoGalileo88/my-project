@@ -650,7 +650,7 @@ export default {
 
     delayDisplay() {
       setTimeout(this.displayWrapper, 6000);
-      setTimeout(this.back, 6000);
+      setTimeout(this.back, 6100);
     },
 
     front() {
