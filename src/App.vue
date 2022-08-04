@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <header class="site_header">
+    <PreLoadear   />
+    <div class="my_wrapper" v-if="show == false">
+      <header class="site_header">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid justify-content-center">
           <button
@@ -173,7 +175,7 @@
                   molta pratica con diversi tipi di progetti ispirati alle più
                   famose web applications come Whattsapp Web, Spotify Web,
                   Netflix e molte altre. <br />
-                  Le principali tecnologie che ho utilizzato sonno:
+                  Le principali tecnologie che ho utilizzato sono:
                 </p>
                 <ul>
                   <li>HTML</li>
@@ -289,8 +291,6 @@
         </div>
       </section>
       <!-- /.projects -->
-
-      <section class="map"></section>
 
       <section
         id="skills"
@@ -425,15 +425,21 @@
       </div>
     </footer>
     <!-- /.site_footer -->
+    </div>
+    <!-- /.wrapper -->
   </div>
 </template>
 
 <script>
+import PreLoadear from "@/components/PreLoader.vue";
 export default {
   name: "App",
-  components: {},
+  components: {
+    PreLoadear,
+  },
   data() {
     return {
+      show: true,
       flip_timerId: null,
       flip_index: 0,
       flip_data: [
@@ -613,10 +619,20 @@ export default {
     },
     startTimer() {
       this.flip_timerId = setInterval(this.nextText, 3000);
+
     },
+    displayWrapper(){
+      this.show = false;
+    },
+
+    delayDisplay(){
+      setTimeout(this.displayWrapper, 8000);
+    }
   },
   mounted() {
     this.startTimer();
+    this.delayDisplay();
+    
   },
 };
 </script>
@@ -625,18 +641,15 @@ export default {
 <style lang="scss">
 @import "@/assets/scss/style.scss";
 
+.display_none{
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    object-fit: contain;
+}
+
 header {
   height: 100vh;
-  background-image: -webkit-linear-gradient(
-      top left,
-      rgba(19, 18, 18, 0.98),
-      rgba(19, 18, 18, 0.98)
-    ),
-    url("@/assets/img/bg-code.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
   nav {
     background-color: rgb(19, 18, 18);
     box-shadow: 0px 20px 20px 0px #131212;
@@ -838,9 +851,12 @@ main {
 }
 
 footer {
-  background-image: linear-gradient(to right, black, #692912);
+  /* background-image: linear-gradient(to right, black, #692912); */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2587%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsRadialGradient2588)'%3e%3c/rect%3e%3cpath d='M-41.00707513542381 82.35367645242556L26.3962074576056 171.80085357772236 126.86533184903607 25.972341125529844z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M3.928446593262464-29.985127869290118L-63.474835999766945 59.46204925600668 104.39757098469295 115.84338458290239z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-1.8620393066016305-62.63476147193752L-56.55748925540395 96.2123592287477 156.98508139408358-7.939311523135203z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1316.0184424702093-57.14031137506199L1275.375564009465 105.8693706393054 1479.0281244845767-16.497432914317812z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1290.6808817854035 57.628891267479744L1460.2841858391569 148.01600520061263 1457.3521815576933-19.958407585661092z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1358.8144975521325 185.56817776240692L1498.0928097413794 91.62376997932138 1264.870089769047 46.28986557315997z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M101.24889788965811 422.3688273336564L-61.83029097807012 524.0560402434168 85.10581982134838 605.5040564448013z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M114.7365698313182 576.5336230693173L81.54436720426273 387.23653171322803-49.01615432050835 492.9623574096007z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M62.66452380002395 403.69809068912093L-43.853806025033236 438.30799405911506 61.320213942486525 580.7805371117038z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1418.7081164423373 598.3410596819541L1501.9403368958056 523.3984317697619 1347.9102848007833 436.0214150456559z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1290.6666666666665 504.00000000000006L1458.6666666666665 597.3333333333334 1458.6666666666665 429.33333333333337z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1469.063258003962 450.4357299439239L1378.4533546339678 384.60378168716693 1325.0103839338294 553.4346108705365z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2587'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='50%25' cy='50%25' r='772.53' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient2588'%3e%3cstop stop-color='rgba(59%2c 18%2c 0%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
   box-shadow: inset 1px 4px 20px #171717;
-  padding: 3rem;
+  background-position: center;
+  background-size: contain;
+  padding: 1rem;
   ul {
     display: flex;
     flex-direction: column;

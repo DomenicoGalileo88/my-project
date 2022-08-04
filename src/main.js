@@ -16,6 +16,10 @@ import "aos/dist/aos.css";
 import VueSmoothScroll from "vue2-smooth-scroll";
 Vue.use(VueSmoothScroll);
 
+//loader
+import loader from "vue-ui-preloader";
+Vue.use(loader);
+
 Vue.config.productionTip = false
 
 new Vue({
