@@ -83,7 +83,7 @@ export default {
       position: absolute;
       bottom: 0;
       height: 2px;
-      width: 700px;
+      width: 70%;
       margin: 0 auto;
       background: #faf9f9;
       margin-top: 150px;

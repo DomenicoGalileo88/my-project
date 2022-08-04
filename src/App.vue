@@ -301,7 +301,7 @@
         <div class="container">
           <h2 class="orange text-center">Skills</h2>
           <!-- infinite sidebar -->
-          <infinite-slide-bar :duration="'60s'">
+          <infinite-slide-bar :duration="'50s'">
             <div class="items d-flex">
               <div v-for="skill in skills" :key="skill.id">
                 <div class="img_infinite">
@@ -928,5 +928,7 @@ footer {
       padding-left: 0.5rem;
       color: #cfcfcf;
     }
+
+   
 }
 </style>
