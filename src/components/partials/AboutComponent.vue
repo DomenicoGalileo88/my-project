@@ -16,7 +16,7 @@
                   in impiantistica, manutenzione e propensione a lavorare in
                   gruppo. Ho scelto il mondo della programmazione perché ti da
                   la possibilità di creare qualcosa per le persone, affinché si
-                  possano divertire, informare, acquistare e tanto altro, non ci
+                  possano divertire, informare, fare acquisti on line e tanto altro. Non ci
                   sono limiti a quello che si può creare. Per me questo è un
                   punto fondamentale di questo lavoro che mi ha portato a fare
                   una svolta nella mia vita. Sono una persona determinata, amo

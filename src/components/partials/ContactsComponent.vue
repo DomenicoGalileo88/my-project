@@ -24,7 +24,7 @@
                   <!-- /github -->
 
                   <li>
-                    <a href="https://ibb.co/N7RyT9M">
+                    <a href="https://ibb.co/mbMZgmj">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="50"
