@@ -25,7 +25,9 @@
                 >
                   <div class="flipper">
                     <div class="front">
-                      <img :src="project.image" :alt="project.name" />
+                      <div class="img_front">
+                        <img :src="project.image" :alt="project.name" />
+                      </div>
                     </div>
                     <div class="back">
                       <div class="title_project">{{ project.name }}</div>
@@ -150,9 +152,53 @@ export default {
           description:
             "Riproduzione del sito di Wordpress completa di operazioni Laravel CRUD e Vue per la parte front. Tecnologie usate: ",
         },
+        {
+          id: 9,
+          name: "Deliveboo",
+          image: require("@/assets/img/1.png"),
+          link: "https://github.com/DomenicoGalileo88/delivebool",
+          technology: "Vue CLI, Laravel, Bootstrap",
+          description:
+            "Riproduzione del sito di Deliveroo completa di operazioni Laravel CRUD e VueCLI per la parte front. Tecnologie usate: ",
+        },
       ],
         }
     }
 }
 </script>
 
+<style lang="scss" scoped>
+.project{
+  height: 140px;
+}
+  .img_front{
+    img{
+      width: 100%;
+      height: 143px;
+    }
+  }
+
+  @media screen and (max-width: 576px){
+    .project{
+  height: auto;
+}
+  .img_front{
+    img{
+      width: 100%;
+      height: 240px;
+    }
+  }
+  }
+
+  @media screen and (max-width: 426px){
+    .project{
+  height: auto;
+}
+  .img_front{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  }
+</style>
