@@ -32,6 +32,24 @@
         </div>
       </footer>
       <!-- /.site_footer -->
+      <div class="property py-3">
+        Logo Malvin di proprietà di Marlvin S.r.l | Logo Boolean di proprietà di
+        Boolean S.r.l |
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-c-circle"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"
+          />
+        </svg>
+        2022
+      </div>
+      <!-- /.property -->
     </div>
     <!-- /.my_wrapper -->
   </div>
@@ -137,7 +155,6 @@ export default {
         //console.log("back", back);
         // attivare la funzione di front dopo 2.5sec
         setTimeout(this.front, 2500);
-        
       }
     },
   },
@@ -290,8 +307,12 @@ main {
   }
 }
 
-footer {
+.property {
+  font-size: 10px;
+  text-align: center;
+}
 
+footer {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2587%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsRadialGradient2588)'%3e%3c/rect%3e%3cpath d='M-41.00707513542381 82.35367645242556L26.3962074576056 171.80085357772236 126.86533184903607 25.972341125529844z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M3.928446593262464-29.985127869290118L-63.474835999766945 59.46204925600668 104.39757098469295 115.84338458290239z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-1.8620393066016305-62.63476147193752L-56.55748925540395 96.2123592287477 156.98508139408358-7.939311523135203z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1316.0184424702093-57.14031137506199L1275.375564009465 105.8693706393054 1479.0281244845767-16.497432914317812z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1290.6808817854035 57.628891267479744L1460.2841858391569 148.01600520061263 1457.3521815576933-19.958407585661092z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1358.8144975521325 185.56817776240692L1498.0928097413794 91.62376997932138 1264.870089769047 46.28986557315997z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M101.24889788965811 422.3688273336564L-61.83029097807012 524.0560402434168 85.10581982134838 605.5040564448013z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M114.7365698313182 576.5336230693173L81.54436720426273 387.23653171322803-49.01615432050835 492.9623574096007z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M62.66452380002395 403.69809068912093L-43.853806025033236 438.30799405911506 61.320213942486525 580.7805371117038z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1418.7081164423373 598.3410596819541L1501.9403368958056 523.3984317697619 1347.9102848007833 436.0214150456559z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1290.6666666666665 504.00000000000006L1458.6666666666665 597.3333333333334 1458.6666666666665 429.33333333333337z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1469.063258003962 450.4357299439239L1378.4533546339678 384.60378168716693 1325.0103839338294 553.4346108705365z' fill='rgba(255%2c 80%2c 0%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2587'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='50%25' cy='50%25' r='772.53' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient2588'%3e%3cstop stop-color='rgba(59%2c 18%2c 0%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 
   box-shadow: inset 1px 4px 20px #171717;
